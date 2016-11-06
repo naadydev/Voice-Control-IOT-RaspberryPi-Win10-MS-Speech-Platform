@@ -2,7 +2,7 @@
 Simple Example for Control Anything Using Voice Control ( WIn10 IOT - MS Speech Platform - RaspberryPi )
 
  #   Speech Commands You Can Say  
-        //==================   <br />     
+        //==================       
         // hi SMSM <br />
         // Turn On/Off Bedroom Light<br />
         // Turn On/Off kITCHEN Light<br />
