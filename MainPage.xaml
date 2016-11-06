@@ -1,0 +1,22 @@
+﻿<Page
+    x:Class="NADYSpeechApiProj.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:NADYSpeechApiProj"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" Margin="-648,0,-604,0">
+
+        <TextBox x:Name="textBox1" Text="Sample Text" 
+         FontFamily="Verdana" FontSize="24"
+         FontWeight="Bold" FontStyle="Italic" 
+         CharacterSpacing="200"
+         Foreground="Blue" Background="Beige" Margin="654,147,697,356"/>
+        <Button x:Name="button" Content="Button" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="654,448,0,0" Height="79" Width="149" Click="button_Click"/>
+
+        <MediaElement x:Name="mediaElement"></MediaElement>
+        <TextBox x:Name="textBox2" HorizontalAlignment="Left" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Margin="739,84,0,0"/>
+    </Grid>
+</Page>
