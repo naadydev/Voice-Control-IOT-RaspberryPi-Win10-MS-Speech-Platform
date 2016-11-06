@@ -3,10 +3,10 @@ Simple Example for Control Anything Using Voice Control ( WIn10 IOT - MS Speech 
 
  #   Speech Commands You Can Say  
         //==================        
-        // hi SMSM
-        // Turn On/Off Bedroom Light
-        // Turn On/Off kITCHEN Light
-        // Fan On/Off       
+#        // hi SMSM
+ #       // Turn On/Off Bedroom Light
+ #       // Turn On/Off kITCHEN Light
+ #       // Fan On/Off       
         //================== 
 #
 
